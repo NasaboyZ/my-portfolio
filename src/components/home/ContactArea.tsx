@@ -168,11 +168,12 @@ export default function ContactArea() {
                     </div>
                     <div className="col-md-12 text-center">
                       <p className="input-success">
-                        We have received your mail, We will get back to you
-                        soon!
+                        Ich habe deine Nachricht erhalten, ich werde mich
+                        schnellstmöglich um deine Nachricht kümmern!
                       </p>
                       <p className="input-error">
-                        Sorry, Message could not send! Please try again.
+                        Sorry, Nachricht konnte nicht gesendet werden! Bitte
+                        versuche es erneut.
                       </p>
                     </div>
                   </div>
