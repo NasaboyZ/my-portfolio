@@ -20,6 +20,12 @@ const counter_data = [
     count: 100,
     cls: "percent",
   },
+  {
+    id: 4,
+    title: 'Commits auf GitHub',
+    count: 400 ,
+    cls: "plus",
+  }
 ]
 
 export default function AboutArea() {
