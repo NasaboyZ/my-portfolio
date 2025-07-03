@@ -1,24 +1,23 @@
-
 import React from 'react'
 import Count from '../common/Count'
 
 const counter_data = [
   {
     id: 1,
-    title: 'Years Of Experience',
-    count: 8,
+    title: 'Jahre Erfahrung',
+    count: 3,
     cls: "plus",
   },
   {
     id: 2,
-    title: 'Completed Projects',
-    count: 1,
-    cls: "k-plus",
+    title: 'Abgeschlossene Projekte',
+    count: 10,
+    // cls: "10",
   },
   {
     id: 3,
-    title: 'Client Satisfactions',
-    count: 90,
+    title: 'Kundenzufriedenheit',
+    count: 100,
     cls: "percent",
   },
 ]
@@ -31,12 +30,16 @@ export default function AboutArea() {
           <div className="row">
 
             <div className="col-lg-3 col-sm-3">
-              <h2 className="about-pre-title">About Me</h2>
+              <h2 className="about-pre-title">Über Mich</h2>
             </div>
             <div className="col-lg-9 col-sm-9">
-              <div className="about-content-part wow fadeInUp delay-0-2s">
-                <p>I am Josef Leite, a seasoned UX designer with over 8 years of experience in crafting intuitive and engaging digital experiences. My journey began with a background in graphic design, where I discovered my passion for understanding user behavior and translating it into seamless interactions.</p>
-              </div>
+            <div className="about-content-part wow fadeInUp delay-0-2s">
+  <p>
+    Mein Name ist Josef Leite. Nach meinem erfolgreichen Abschluss als Web Design Developer befinde ich mich aktuell im Bachelorstudium Web Development.
+    Während meines Studiums habe ich meine Leidenschaft für Webdesign und -entwicklung entdeckt und seitdem zahlreiche private Projekte sowie erste Aufträge für Kunden umgesetzt.
+    Mein Fokus liegt auf kreativen, modernen und funktionalen Lösungen, die individuell auf die Anforderungen meiner Auftraggeber zugeschnitten sind.
+  </p>
+</div>
               <div className="hero-counter-area d-flex justify-content-between wow fadeInUp delay-0-4s">
                 {counter_data.map((item, i) => (
                   <div key={i} className="counter-item counter-text-wrap">

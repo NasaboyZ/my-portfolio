@@ -1,7 +1,7 @@
 
 import React from 'react'
 import HeroArea from './HeroArea'
-import BrandArea from './BrandArea'
+// import BrandArea from './BrandArea'
 import AboutArea from './AboutArea'
 import ServiceArea from './ServiceArea'
 import HeaderOne from '@/layouts/headers/HeaderOne'
@@ -19,7 +19,7 @@ export default function Home() {
         <div id="smooth-content">
           <main>
             <HeroArea />
-            <BrandArea />
+            {/* <BrandArea /> */}
             <AboutArea />
             <ServiceArea />
             <PortfolioArea />
