@@ -9,7 +9,7 @@ export default function ServiceArea() {
           <div className="row">
             <div className="col-xl-12 col-lg-12">
               <div className="section-title section-black-title wow fadeInUp delay-0-2s">
-                <h2>Services</h2>
+                <h2>Dienstleistungen</h2>
               </div>
             </div>
           </div>
@@ -19,8 +19,8 @@ export default function ServiceArea() {
               <div className="service-item wow fadeInUp delay-0-2s">
                 <i className="ri-arrow-right-up-line"></i>
                 <h5>01</h5>
-                <h4>Brand Identity Design</h4>
-                <p>Blend of strategic thinking and creative flair to craft a digital identity that resonates and captivates. kits you need to create a true website within minutes.</p>
+                <h4>Markenidentität Design</h4>
+                <p>Eine Mischung aus strategischem Denken und kreativem Flair, um eine digitale Identität zu schaffen, die Resonanz findet und fesselt. Kits, die Sie benötigen, um innerhalb von Minuten eine echte Website zu erstellen.</p>
               </div>
             </div>
 
